@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/solarsystemimage"
+    tools:context="com.example.android.proiect1.MainActivity3">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        tools:context="com.example.android.proiect1.MainActivity3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/text_layout_margin_bottom"
+            android:layout_marginLeft="@dimen/text_layout_margin_left"
+            android:layout_marginRight="@dimen/text_layout_margin_right"
+            android:layout_marginTop="@dimen/text_layout_margin_top"
+            android:text="@string/question_2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSpeakQuestion2"
+            android:layout_width="@dimen/speak_button_layout_width"
+            android:layout_height="@dimen/speak_button_layout_height"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ic_play_circle_filled_white_24dp"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_group_question2"
+            android:onClick="onSubmit1"
+
+            >
+            <RadioButton
+                android:id="@+id/radio_button_answer_question_2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answerQuestion2_1"
+                android:textSize="@dimen/font_size"
+                android:padding="@dimen/radio_button_padding"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                />
+            <RadioButton
+                android:id="@+id/radio_button_answer_question_2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answerQuestion2_2"
+                android:textSize="@dimen/font_size"
+                android:padding="@dimen/radio_button_padding"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                />
+            <RadioButton
+                android:id="@+id/radio_button_answer_question_2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/answerQuestion2_3"
+                android:textSize="@dimen/font_size"
+                android:padding="@dimen/radio_button_padding"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                />
+
+        </RadioGroup>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/preview_button"
+        android:onClick="preview2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/next_button"
+        android:onClick="next3"
+        />
+</RelativeLayout>

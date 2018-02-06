@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.proiect1">
+    <uses-sdk  android:minSdkVersion="9"
+        android:targetSdkVersion="18">
+    </uses-sdk>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/children_avatar"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/children_avatar"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.">
+        <activity android:name=".MainActivity"
+            android:label="@string/label_name_activity_1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity2"
+            android:label="@string/label_name_activity_2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity3"
+            android:label="@string/label_name_activity_3"/>
+        <activity android:name=".MainActivity4"
+          android:label="@string/label_name_activity_4"/>
+        <activity android:name=".MainActivity5"
+          android:label="@string/label_name_activity_5"/>
+        <activity android:name=".MainActivity6"
+            android:label="@string/label_name_activity_6"
+            android:colorMode="default"
+            android:visibleToInstantApps="true"
+           />
+        <activity android:name=".MainActivity7"
+            android:label="@string/label_name_activity_7"
+            android:colorMode="default"
+            android:visibleToInstantApps="true">
+        </activity>
+    </application>
+
+</manifest>

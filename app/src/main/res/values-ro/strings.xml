@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">proiect1</string>
+    <string name="name_edit">Care este numele tau!</string>
+    <string name="next_button">Urmatorul</string>
+    <string name="preview_button">Inainte</string>
+    <string name="first_question">Cate zile sunt intr-o saptamana?</string>
+    <string name="question_2">Care planeta este cea mai apropita de Soare?</string>
+    <string name="answerQuestion2_1">Martie</string>
+    <string name="answerQuestion2_2">Mercur</string>
+    <string name="answerQuestion2_3">Jupiter</string>
+    <string name="question_3">Care numere sunt mai mari decat 12?</string>
+    <string name="question_4">Daca ingeti apa, obtii...?</string>
+    <string name="answerQuestion4_1">Foc</string>
+    <string name="answerQuestion4_2">Gheata</string>
+    <string name="answerQuestion4_3">Aburi</string>
+    <string name="answerQuestion4_4">Nisip</string>
+    <string name="question_5">Care din urmatoarele obiecte folosesc electricitate?</string>
+    <string name="answerquestion5_1">Bicicleta</string>
+    <string name="answerquestion5_2">TV</string>
+    <string name="answerquestion5_3">Masa</string>
+    <string name="answerquestion5_4">Fier de calcat</string>
+    <string name="finish_button">Final</string>
+    <string name="back_button">Inapoi</string>
+    <string name="score_text">Scorul tau este:</string>
+    <string name="label_name_activity_6">INTREBAREA 5</string>
+    <string name="label_name_activity_7">FINAL</string>
+    <string name="label_name_activity_5">INTREBAREA 4</string>
+    <string name="label_name_activity_4">INTREBAREA 3</string>
+</resources>

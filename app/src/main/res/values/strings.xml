@@ -1,0 +1,54 @@
+<resources>
+
+    <string name="app_name">proiect1</string>
+    !-- edit your name
+    <string name="name_edit">What is your name? </string>
+    !-- buttons who access the next page
+    <string name="next_button">Next</string>
+    !-- buttons who access the preview page
+    <string name="preview_button">Preview</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    !-- first question and answers
+    <string name="first_question">How many days are in a week?</string>
+    <string name="answer_1">1</string>
+    <string name="answer_2">10</string>
+    <string name="answer_3">7</string>
+   !-- second question and answers
+    <string name="question_2">Which planet is closest to the sun?</string>
+    <string name="answerQuestion2_1">Mars</string>
+    <string name="answerQuestion2_2">Mercury</string>
+    <string name="answerQuestion2_3">Jupiter</string>
+    !--  question number 3 and answers
+    <string name="question_3">What numbers are bigger then 12?</string>
+    <string name="answerQuestion3_1">7</string>
+    <string name="answerQuestion3_2">20</string>
+    <string name="answerQuestion3_3">14</string>
+    <string name="answerQuestion3_4">4</string>
+    !-- question number 4 and answers
+    <string name="question_4">If you freeze the water you get ...?</string>
+    <string name="answerQuestion4_1">Fire</string>
+    <string name="answerQuestion4_2">Ice</string>
+    <string name="answerQuestion4_3">Steam</string>
+    <string name="answerQuestion4_4">Sand</string>
+    !-- question number 5 and answers
+    <string name="question_5">Which of the following objects use electricity?</string>
+    <string name="answerquestion5_1">Bicycle</string>
+    <string name="answerquestion5_2">TV</string>
+    <string name="answerquestion5_3">Table</string>
+    <string name="answerquestion5_4">Iron</string>
+    !-- the finish button
+    <string name="finish_button">Finish</string>
+    !-- back button return to the last question
+    <string name="back_button">Back</string>
+    !-- all 7 labels name
+    <string name="label_name_activity_7">FINISH</string>
+    <string name="label_name_activity_6">QUESTION 5</string>
+    <string name="label_name_activity_5">QUESTION 4</string>
+    <string name="label_name_activity_4">QUESTION 3</string>
+    <string name="label_name_activity_3">QUESTION 2</string>
+    <string name="label_name_activity_2">QUESTION 1</string>
+    <string name="label_name_activity_1">5 Question for 5 years old Kids</string>
+    !-- Show the final score
+    <string name="score_text">Your score is: </string>
+    <string name="title_activity_main2">MainActivity2</string>
+</resources>

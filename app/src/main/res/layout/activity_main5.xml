@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/snowimage"
+    tools:context="com.example.android.proiect1.MainActivity5">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:context="com.example.android.proiect1.MainActivity4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/text_layout_margin_bottom"
+            android:layout_marginLeft="@dimen/text_layout_margin_left"
+            android:layout_marginRight="@dimen/text_layout_margin_right"
+            android:layout_marginTop="@dimen/text_layout_margin_top"
+            android:text="@string/question_4"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSpeakQuestion4"
+            android:layout_width="@dimen/speak_button_layout_height"
+            android:layout_height="@dimen/speak_button_layout_height"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ic_play_circle_filled_black_24dp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_question4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:pointerIcon="arrow"
+            android:onClick="onSubmit2">
+
+            <RadioButton
+                android:id="@+id/radio_button_answer_question_4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/checkbox_padding"
+                android:text="@string/answerQuestion4_1"
+                android:textSize="@dimen/font_size"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <RadioButton
+                android:id="@+id/radio_button_answer_question_4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/checkbox_padding"
+                android:text="@string/answerQuestion4_2"
+                android:textSize="@dimen/font_size"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <RadioButton
+                android:id="@+id/radio_button_answer_question_4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/checkbox_padding"
+                android:text="@string/answerQuestion4_3"
+                android:textSize="@dimen/font_size"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/radio_button_answer_question_4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/checkbox_padding"
+                android:text="@string/answerQuestion4_4"
+                android:textSize="@dimen/font_size"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="preview4"
+        android:text="@string/preview_button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="next5"
+        android:text="@string/next_button" />
+</RelativeLayout>
